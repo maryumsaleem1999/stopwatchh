@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet"  href="style.css">
+</head>
+<body>
+	<div class="wrap">
+		<div class="timer">
+			<div class="col-lg-12 col-md-12 col-sm-12">
+
+				<svg width="260" height="260">
+					<circle id="animatecircle" cx="125" cy="125" r="120" stroke="#0A0A0A" stroke-width="10" fill="none" stroke-linecape="round" />
+				</svg>
+				<div class="wide">
+				<h1 id="min" class="">00</h1><span>:</span>
+				<h1 id="sec" class="">00 </h1><span>:</span>
+				<h1 id="msec" class="">00</h1>
+				</div>
+			</div>
+		</div>
+		<p class="font-weight-bold">Your Time Starts Now!!</p>
+		<div class="option">
+			<button id="play" onclick="play()"><i class="fa fa-play"></i>&nbsp;play</button>
+			<button id="stop"  onclick="stop()" ><i class="fa fa-stop"></i>&nbsp;stop</button>
+			<button id="reset"  onclick="reset()"><i class="fa fa-refresh">&nbsp;reset</i></button>	
+		</div>
+	</div>
+
+
+
+
+
+
+	<script src="app.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+</body>
+</html>
