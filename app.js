@@ -25,7 +25,7 @@ function play(){
 }
 function stop(){
 	clearInterval(interval) 
-	   document.getElementById("play").disabled=true; 
+	document.getElementById("play").disabled=true; 
  
 }
 function reset(){
